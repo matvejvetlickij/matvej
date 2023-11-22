@@ -1,0 +1,4 @@
+ for pool in all_pools:
+        for wallet in wallets:
+            if (wallet not in all_pools[pool]):
+                all_pools[pool][wallet] = []
